@@ -10,15 +10,16 @@ import logo from "/resources/Logo.png";
 import { NavLink } from "react-router-dom";
 
 function NavList() {
+    const navCSS = 'flex items-center transition-colors';
     return (
-        <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+        <ul className="my-2 flex flex-col items-end gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
             <Typography
                 as="li"
                 variant="lead"
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/" className="flex items-center hover:text-blue-500 transition-colors">
+                <NavLink to="/" className={({ isActive }) => isActive ? `text-red-500 ${navCSS}` : `${navCSS} hover:text-orange-500`}>
                     Home
                 </NavLink>
             </Typography>
@@ -28,7 +29,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/donation" className="flex items-center hover:text-blue-500 transition-colors">
+                <NavLink to="/donation" className={({ isActive }) => isActive ? `text-red-500 ${navCSS}` : `${navCSS} hover:text-orange-500`}>
                     Donation
                 </NavLink>
             </Typography>
@@ -38,11 +39,11 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/statistics" className="flex items-center hover:text-blue-500 transition-colors">
+                <NavLink to="/statistics" className={({ isActive }) => isActive ? `text-red-500 ${navCSS}` : `${navCSS} hover:text-orange-500`}>
                     Statistics
                 </NavLink>
             </Typography>
-        </ul>
+        </ul >
     );
 }
 
@@ -63,13 +64,9 @@ export function MyNavbar() {
     return (
         <Navbar className="mx-auto max-w-7xl py-3 shadow-none">
             <div className="flex items-center justify-between text-blue-gray-900">
-                <Typography
-                    as="a"
-                    href="https://react-ph-practice-donation-campaign-spa.surge.sh/"
-                    className="mr-4 cursor-pointer py-1.5"
-                >
+                <NavLink to="/" className="mr-4 cursor-pointer py-1.5">
                     <img src={logo} alt="website-logo" />
-                </Typography>
+                </NavLink>
                 <div className="hidden lg:block">
                     <NavList />
                 </div>

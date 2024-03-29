@@ -5,7 +5,7 @@ const Banner = () => {
     const [email, setEmail] = React.useState("");
     const onChange = ({ target }) => setEmail(target.value);
     return (
-        <div className="h-[450px] border-4 border-red-400 flex flex-col justify-center items-center space-y-4 relative">
+        <div className="h-[450px] flex flex-col justify-center items-center space-y-4 relative">
             <div className="absolute inset-0 bg-[url('/resources/bg.jpg')] bg-no-repeat bg-cover bg-center opacity-10" />
             <Typography variant="h2">I Grow By Helping People In Need</Typography>
             <div className="relative flex w-full max-w-[24rem]">

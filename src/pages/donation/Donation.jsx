@@ -1,28 +1,22 @@
 import { Button } from "@material-tailwind/react";
 import DonationList from "../../components/DonationList";
 import useLocalStorage from "../../hooks/useLocalStorage";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Donation = () => {
     const { localData } = useLocalStorage();
-    const [viewData, setViewData] = useState([]);
-    useEffect(() => {
-        setViewData(localData.slice(0, 4));
-    }, [localData])
-    const handleSellAll = () => {
-        setViewData(localData);
-    }
+    const [seeAll, setSeeAll] = useState(false);
     return (
         <section className="max-w-7xl mx-auto my-20 space-y-6">
             <div className="grid grid-cols-2 gap-6">
                 {
-                    viewData.map(data => <DonationList key={data.id} data={data} />)
+                    localData.slice(0, seeAll ? localData.length : 4).map(data => <DonationList key={data.id} data={data} />)
                 }
 
             </div>
-            <div className="w-[120px] mx-auto">
+            <div className="w-32 mx-auto">
                 {
-                    viewData.length && localData.length !== viewData.length && <Button onClick={handleSellAll} style={{ backgroundColor: '#009444' }} className="bg-opacity-20 shadow-none mt-2.5" size="lg">See All</Button>
+                    localData.length > 4 && <Button onClick={() => setSeeAll(!seeAll)} style={{ backgroundColor: '#009444' }} className="bg-opacity-20 shadow-none mt-2.5" size="lg">{seeAll ? 'See Less' : 'See All'}</Button>
                 }
             </div>
         </section >

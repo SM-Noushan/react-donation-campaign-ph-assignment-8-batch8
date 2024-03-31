@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "/resources/education.png",
+        "title": "Help Build a School",
+        "category": "Education",
+        "categoryBG": "rgba(52, 152, 219, 0.20)",
+        "cardBG": "rgba(52, 152, 219,  0.15)",
+        "textColor": "rgba(52, 152, 219, 1)",
+        "description": "Your donation will help provide the necessary resources to build a school in a rural area, ensuring children have access to quality education and a brighter future.",
+        "price": "$25"
+    },
+    {
+        "id": 2,
+        "picture": "/resources/aid.png",
+        "title": "Support Clean Water Initiative",
+        "category": "Health & Sanitation",
+        "categoryBG": "rgba(112, 219, 219, 0.20)",
+        "cardBG": "rgba(112, 219, 219, 0.15)",
+        "textColor": "rgba(112, 219, 219, 1)",
+        "description": "Join us in our mission to provide clean and safe drinking water to communities in need. Your donation will help install water purification systems and improve sanitation facilities.",
+        "price": "$20"
+    },
+    {
+        "id": 3,
+        "picture": "/resources/food.png",
+        "title": "Feed the Hungry",
+        "category": "Food & Hunger",
+        "categoryBG": "rgba(255, 92, 53, 0.20)",
+        "cardBG": "rgba(255, 92, 53, 0.15)",
+        "textColor": "rgba(255, 92, 53, 1)",
+        "description": "Your contribution will help provide nutritious meals to families facing food insecurity. Together, we can ensure that no one goes to bed hungry.",
+        "price": "$15"
+    },
+    {
+        "id": 4,
+        "picture": "/resources/community.png",
+        "title": "Empower Women Entrepreneurs",
+        "category": "Women's Empowerment",
+        "categoryBG": "rgba(255, 102, 153, 0.20)",
+        "cardBG": "rgba(255, 102, 153, 0.15)",
+        "textColor": "rgba(255, 102, 153, 1)",
+        "description": "Support women-led businesses by funding microloans and training programs. Your donation will empower women to become financially independent and create positive change in their communities.",
+        "price": "$30"
+    },
+    {
+        "id": 5,
+        "picture": "/resources/aid.png",
+        "title": "Plant Trees for a Greener Future",
+        "category": "Environmental Conservation",
+        "categoryBG": "rgba(51, 255, 153, 0.20)",
+        "cardBG": "rgba(51, 255, 153, 0.15)",
+        "textColor": "rgba(51, 255, 153, 1)",
+        "description": "Contribute to reforestation efforts and combat climate change by planting trees in deforested areas. Your donation will create habitats for wildlife and mitigate the effects of deforestation.",
+        "price": "$10"
+    },
+    {
+        "id": 6,
+        "picture": "/resources/food.png",
+        "title": "Emergency Relief Fund",
+        "category": "Disaster Relief",
+        "categoryBG": "rgba(102, 102, 255, 0.20)",
+        "cardBG": "rgba(102, 102, 255, 0.15)",
+        "textColor": "rgba(102, 102, 255, 1)",
+        "description": "Support disaster response efforts and provide immediate aid to communities affected by natural disasters such as hurricanes, earthquakes, and floods. Your donation will save lives and rebuild communities.",
+        "price": "$50"
+    },
+    {
+        "id": 7,
+        "picture": "/resources/community.png",
+        "title": "Promote Mental Health Awareness",
+        "category": "Healthcare",
+        "categoryBG": "rgba(204, 102, 255, 0.20)",
+        "cardBG": "rgba(204, 102, 255, 0.15)",
+        "textColor": "rgba(204, 102, 255, 1)",
+        "description": "Raise awareness about mental health issues and support programs that provide counseling and resources to those in need. Your donation will help break the stigma surrounding mental illness and promote well-being.",
+        "price": "$25"
+    },
+    {
+        "id": 8,
+        "picture": "/resources/aid.png",
+        "title": "Foster Education for Refugee Children",
+        "category": "Refugee Support",
+        "categoryBG": "rgba(255, 102, 204, 0.20)",
+        "cardBG": "rgba(255, 102, 204, 0.15)",
+        "textColor": "rgba(255, 102, 204, 1)",
+        "description": "Provide access to education for refugee children living in camps and conflict zones. Your donation will support schools, teachers, and educational materials, giving these children hope for a better future.",
+        "price": "$20"
+    },
+    {
+        "id": 9,
+        "picture": "/resources/community.png",
+        "title": "Empower Youth Through Sports",
+        "category": "Youth Development",
+        "categoryBG": "rgba(51, 204, 255, 0.20)",
+        "cardBG": "rgba(51, 204, 255, 0.15)",
+        "textColor": "rgba(51, 204, 255, 1)",
+        "description": "Support sports programs that promote leadership, teamwork, and discipline among young people. Your donation will provide equipment, coaching, and facilities to underserved communities.",
+        "price": "$15"
+    },
+    {
+        "id": 10,
+        "picture": "/resources/aid.png",
+        "title": "Provide Medical Aid to Vulnerable Communities",
+        "category": "Healthcare",
+        "categoryBG": "rgba(102, 255, 204, 0.20)",
+        "cardBG": "rgba(102, 255, 204, 0.15)",
+        "textColor": "rgba(102, 255, 204, 1)",
+        "description": "Ensure access to healthcare services for vulnerable populations, including refugees, low-income families, and people living in remote areas. Your donation will fund medical supplies, clinics, and healthcare professionals.",
+        "price": "$30"
+    },
+    {
+        "id": 11,
+        "picture": "/resources/education.png",
+        "title": "Support Arts and Culture Programs",
+        "category": "Arts & Culture",
+        "categoryBG": "rgba(121, 194, 63, 0.20)",
+        "cardBG": "rgba(121, 194, 63, 0.15)",
+        "textColor": "rgba(121, 194, 63, 1)",
+        "description": "Promote creativity and cultural expression by supporting arts education, performances, and festivals. Your donation will enrich communities and preserve diverse cultural heritage.",
+        "price": "$10"
+    },
+    {
+        "id": 12,
+        "picture": "/resources/community.png",
+        "title": "Rescue Shelter for Animals",
+        "category": "Animal Welfare",
+        "categoryBG": "rgba(231, 76, 60, 0.20)",
+        "cardBG": "rgba(231, 76, 60, 0.15)",
+        "textColor": "rgba(231, 76, 60, 1)",
+        "description": "Help provide shelter, food, and medical care to abandoned and abused animals. Your donation will give them a second chance at life and help them find loving forever homes.",
+        "price": "$20"
+    }
+]

@@ -1,5 +1,7 @@
-import { Card, CardHeader, CardBody, Typography, Button, CardFooter } from "@material-tailwind/react";
+import { Card, CardHeader, CardBody, Typography, Button } from "@material-tailwind/react";
 import { Link, useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
+import { data } from "autoprefixer";
 const DonationList = ({ data }) => {
     const {
         id,
@@ -42,5 +44,7 @@ const DonationList = ({ data }) => {
         </Card>
     );
 };
-
+DonationList.propTypes = {
+    data: PropTypes.object.isRequired
+};
 export default DonationList;

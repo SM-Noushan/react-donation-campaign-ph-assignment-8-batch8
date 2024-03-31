@@ -14,7 +14,7 @@ const Banner = ({ setSearchValue }) => {
             <Typography variant="h2">I Grow By Helping People In Need</Typography>
             <div className="relative flex w-full max-w-[24rem]">
                 <Input
-                    ref={searchRef}
+                    inputRef={searchRef}
                     onKeyUp={handleOnKeyUp}
                     type="text"
                     label="Search"
@@ -24,7 +24,7 @@ const Banner = ({ setSearchValue }) => {
                     }}
                 />
                 <Button
-                    onClick={() => setSearchValue(searchRef.current.value || '')}
+                    onClick={() => setSearchValue(searchRef.current.value)}
                     size="sm"
                     color="red"
                     className="!absolute right-1 top-1 rounded"

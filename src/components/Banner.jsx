@@ -1,5 +1,5 @@
 import { Button, Input, Typography } from "@material-tailwind/react";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import PropTypes from "prop-types";
 
 const Banner = ({ setSearchValue }) => {

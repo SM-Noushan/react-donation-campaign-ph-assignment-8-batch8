@@ -63,7 +63,7 @@ const DonationDetails = () => {
         return setOpen(true);
     }
     return (
-        <Card className="my-20 max-w-7xl mx-auto overflow-clip shadow-none">
+        <Card className="my-20 max-w-[475px] md:container lg:max-w-7xl mx-auto overflow-clip shadow-none">
             <Alert
                 icon={alertMsg.includes('success') ? <SuccessIcon /> : <WarningIcon />}
                 className="fixed z-10 w-auto top-0 right-0"
@@ -83,7 +83,7 @@ const DonationDetails = () => {
                     <>
                         <CardHeader color="blue-gray" className="relative flex flex-col mx-0">
                             <img
-                                className="h-[640px] shadow-none"
+                                className=" md:h-[420px] lg:h-[640px] shadow-none"
                                 src={picture}
                                 alt="cover-image"
                             />

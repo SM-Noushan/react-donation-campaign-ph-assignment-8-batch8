@@ -24,7 +24,7 @@ const Category = ({ searchValue }) => {
                     <Spinner className="h-16 w-16 mx-auto my-20 text-gray-900/50" />
                     :
                     filteredData.length ?
-                        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-20 max-w-7xl mx-auto">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-20 max-w-7xl mx-auto *:mx-auto">
                             {
                                 filteredData.map(item => <CategoryList key={item.id} data={item} />)
                             }
